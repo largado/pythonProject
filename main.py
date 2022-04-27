@@ -2,7 +2,7 @@ import random
 
 print("seja bem vindo!")
 
-numero = round(random.random() * 100)
+numero = round(random.randrange(1,101))
 tentativas = 3
 tentativaimpressa = 1
 
